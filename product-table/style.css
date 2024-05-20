@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    list-style: none;
+}
+body{
+    width: 100%;
+    height: 100vh;    
+    background: url(=);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+header{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.canteen{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid;
+}
+.canteen > ul{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.tunga{
+    margin: 200px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dishes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.dishes  img{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}

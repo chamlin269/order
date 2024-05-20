@@ -1,0 +1,40 @@
+{
+    "products": [
+        {
+            "code": "1",
+            "title": "Piatos",
+            "image": ".\/piatos.webp",
+            "price": 12,
+            "servings": 10,
+            "visible": true,
+            "deleted": true
+        },
+        {
+            "code": "2",
+            "title": "Vcut",
+            "image": ".\/vcut.png",
+            "price": 15,
+            "servings": 10,
+            "visible": true,
+            "deleted": true
+        },
+        {
+            "code": "3",
+            "title": "Oishi",
+            "image": "uploads\/oishi.jpg",
+            "price": "15",
+            "servings": "10",
+            "visible": true,
+            "deleted": true
+        },
+        {
+            "code": "4",
+            "title": "fjlask",
+            "image": "uploads\/Magic-Chips-Barbecue-Flavored-Craker-Chips-Small-Front.png",
+            "price": "15",
+            "servings": "10",
+            "visible": true,
+            "deleted": false
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "products": [
+        {
+            "code": "1",
+            "title": "Nature's Spring",
+            "image": ".\/naturespring.jpg",
+            "price": 20,
+            "servings": "10",
+            "visible": true,
+            "deleted": false
+        },
+        {
+            "code": "2",
+            "title": "Coca Cola",
+            "image": ".\/coke.webp",
+            "price": 25,
+            "servings": "10",
+            "visible": true,
+            "deleted": false
+        },
+        {
+            "code": "3",
+            "title": "C2",
+            "image": ".\/c2.jpg",
+            "price": "20",
+            "servings": "10",
+            "visible": true,
+            "deleted": true
+        },
+        {
+            "code": "4",
+            "title": "afsf",
+            "image": "uploads\/SM102173908.jpg",
+            "price": "50",
+            "servings": "10",
+            "visible": true,
+            "deleted": true
+        }
+    ]
+}

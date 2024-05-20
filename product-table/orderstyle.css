@@ -1,0 +1,545 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+.chatroom {
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chat-header {
+  background: maroon;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.chat-window {
+  height: 500px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 10px;
+  background: #f5f5f5;
+  scroll-behavior: smooth;
+}
+.chat-window p {
+  padding: 10px 30px;
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 20px;
+  border-bottom-left-radius: 0%;
+  line-height: 1.5;
+}
+.chat-window p button {
+  width: 200px;
+  border-radius: 10px;
+}
+.chat-window::-webkit-scrollbar {
+  display: none;
+}
+#chatcontainer2 {
+  margin: 40px 0;
+  width: 100%;
+  height: 300px;
+  overflow-y: hidden;
+  overflow-x: auto; /* Allow horizontal scrolling */
+  white-space: nowrap; /* Prevent wrapping to enable horizontal scrolling */
+  padding: 10px;
+  position: relative;
+}
+#chatcontainer4 {
+  margin: 10px 0;
+  width: 100%;
+  height: 400px;
+  overflow-y: hidden;
+  overflow-x: 100px; /* Allow horizontal scrolling */
+  white-space: nowrap; /* Prevent wrapping to enable horizontal scrolling */
+  padding: 10px;
+  position: relative;
+}
+
+#chatcontainer5 {
+  width: 100%;
+  height: 200px;
+}
+.card {
+  width: 200px;
+  height: 300px;
+  display: inline-block; /* Ensures cards are displayed horizontally */
+  margin-right: 10px; /* Adds space between cards */
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.text1 {
+  font-size: 13;
+  color: #cbcbcb;
+}
+.info {
+  line-height: 13px;
+}
+.info span {
+  width: 10px;
+}
+.rounder {
+  margin-top: 40px;
+}
+.cost span {
+  width: 100px;
+  color: maroon;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.button-color1 {
+  background: goldenrod;
+}
+
+.button-color2 {
+  background: goldenrod;
+}
+.button-color3 {
+  background: goldenrod;
+}
+.food-order1 {
+  background: goldenrod;
+}
+
+.food-order2 {
+  background: goldenrod;
+}
+.food-order3 {
+  background: goldenrod;
+}
+.food-order4 {
+  background: goldenrod;
+}
+.food-order5 {
+  background: goldenrod;
+}
+
+.food-order6 {
+  background: goldenrod;
+}
+.food-order7 {
+  background: goldenrod;
+}
+.food-order8 {
+  background: goldenrod;
+}
+.food-order9 {
+  background: goldenrod;
+}
+
+.food-order10 {
+  background: goldenrod;
+}
+.food-order11 {
+  background: goldenrod;
+}
+.food-order12 {
+  background: goldenrod;
+}
+.food-order13 {
+  background: goldenrod;
+}
+
+.food-order14 {
+  background: goldenrod;
+}
+.food-order15 {
+  background: goldenrod;
+}
+.food-order16 {
+  background: goldenrod;
+}
+.food-order17 {
+  background: goldenrod;
+}
+
+.food-order18 {
+  background: goldenrod;
+}
+.food-order19 {
+  background: goldenrod;
+}
+.food-order20 {
+  background: goldenrod;
+}
+.food-order21 {
+  background: goldenrod;
+}
+
+.food-order22 {
+  background: goldenrod;
+}
+.food-order23 {
+  background: goldenrod;
+}
+.food-order24 {
+  background: goldenrod;
+}
+ul {
+  display: inline-flex;
+}
+.move h2 {
+  position: absolute;
+  top: 100px;
+  right: 10px;
+  padding: 20px 0;
+  text-align: center;
+  width: 300px;
+  height: 60px;
+  background-color: maroon;
+  color: white;
+}
+
+#addtocart {
+  position: absolute;
+  bottom: 40px;
+  right: 10px;
+  padding: 0 0 0 20px;
+  width: 300px;
+  height: 500px;
+  background: whitesmoke;
+  box-shadow: #cbcbcb;
+}
+.cart {
+  position: absolute;
+  bottom: 40px;
+  right: 0px;
+  width: 300px;
+  height: 500px;
+  overflow-y: auto;
+}
+#totalSum {
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  padding: 20px 0;
+
+  width: 300px;
+  height: 60px;
+}
+#toggles {
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  padding: 20px 0;
+  text-align: center;
+  width: 300px;
+  height: 60px;
+  background-color: maroon;
+  color: white;
+}
+#orders {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0px 0 0px;
+}
+#orders .subcontain1 {
+  padding-left: 150px;
+  position: relative;
+}
+.subtotal1 {
+  margin-left: 160px;
+}
+.subtotal2 {
+  margin-left: 160px;
+}
+.subtotal3 {
+  margin-left: 160px;
+}
+#orders div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+#orders2 {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+#orders2 .subcontain2 {
+  padding-left: 150px;
+  position: relative;
+}
+#orders2 .subtotal2 {
+  position: absolute;
+  bottom: -5px;
+  left: 240px;
+}
+#orders2 div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+#orders3 {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+#orders3 .subcontain3 {
+  padding-left: 150px;
+  position: relative;
+}
+#orders3 .subtotal3 {
+  position: absolute;
+  bottom: -5px;
+  left: 240px;
+}
+#orders3 div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.totaltanan {
+  position: absolute;
+  top: 700px;
+  right: 10px;
+  font-size: 25px;
+}
+.totalordersum {
+  position: absolute;
+  top: 0;
+  left: 250px;
+}
+.total > div > button {
+  width: 300px;
+}
+.backbutton {
+  margin: 30px 0 30px 10px;
+  padding: 30px;
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+}
+.container {
+  margin: 20px 0;
+  float: left;
+  padding: 30px 10px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+}
+.container button {
+  width: 100%;
+  position: relative;
+  top: 20px;
+  right: 200px;
+}
+.container1 {
+  margin: 20px 0;
+  position: absolute;
+  left: 250px;
+  float: left;
+  padding: 30px 10px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+}
+.container1 button {
+  width: 100%;
+  position: relative;
+  top: 0px;
+  right: 200px;
+}
+.container2 {
+  margin: 20px 0;
+  position: absolute;
+  left: 500px;
+  float: left;
+  padding: 30px 10px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+}
+.container2 button {
+  width: 100%;
+  position: relative;
+  top: 0px;
+  right: 200px;
+}
+.container3 {
+  margin: 20px 0;
+  position: absolute;
+  left: 740px;
+  float: left;
+  padding: 30px 10px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+}
+.container3 button {
+  width: 100%;
+  position: relative;
+  top: 0px;
+  right: 200px;
+}
+.container4 {
+  margin: 20px 0;
+  position: absolute;
+  left: 980px;
+  float: left;
+  padding: 30px 10px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+}
+.container4 button {
+  width: 100%;
+  position: relative;
+  top: 0px;
+  right: 200px;
+}
+
+.container5 button {
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  top: 0px;
+  right: 100px;
+}
+
+.summaryOrder {
+  padding: 30px 0;
+  text-align: center;
+  width: 300px;
+  height: 400px;
+  margin: 50px 0;
+  border: 2px solid black;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+}
+.summaryOrder2 {
+  padding: 30px 0;
+  text-align: center;
+  width: 300px;
+  height: 400px;
+  margin: 50px 0;
+  border: 2px solid black;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+}
+.beverage {
+  text-align: center;
+  padding: 10px 0;
+  width: 250px;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+}
+.chat-input {
+  padding: 10px;
+  display: flex;
+}
+
+.chat-input input {
+  flex-grow: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chat-input button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background: #2c3e91;
+}
+.reply-message {
+  position: relative;
+  top: 50px;
+  bottom: 20px;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  width: 250px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+}
+.chat-message {
+  margin: 0 0 0 100px;
+  float: right;
+  padding: 10px 10px;
+  text-align: center;
+  width: 50px;
+  border: 2px solid black;
+  border-radius: 20px;
+  border-bottom-right-radius: 0;
+}
+.message {
+  text-align: center;
+  padding: 10px 0;
+  width: 300px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+}
+.chat {
+  display: flex;
+  flex-direction: column;
+}
+
+.message1 {
+  margin: 20px 0;
+  float: left;
+  padding: 30px 10px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+}
+.message2 {
+  margin: 20px 10px;
+  position: absolute;
+  left: 250px;
+  float: left;
+  padding: 30px 10px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+}
+.message3 {
+  margin: 20px 10px 100px 10px;
+  position: absolute;
+  left: 500px;
+  float: right;
+  padding: 30px 10px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+}
